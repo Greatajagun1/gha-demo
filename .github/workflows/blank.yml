@@ -9,3 +9,17 @@ jobs:
           echo "Welcome to GHA"
           echo "This is line two"
           echo "This is line three"
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Steps
+        run: echo "A demo build"
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy the App
+        run: echo "Deploying the app"
+         
+            
